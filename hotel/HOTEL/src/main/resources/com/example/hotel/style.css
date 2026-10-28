@@ -1,0 +1,189 @@
+/* Paleta Dark Harmonizada - Atlas Hotel */
+/* #1C2E2C - Verde-petróleo */
+/* #2D3543 - Cinza escuro */
+/* #8B99A3 - Prata metálica */
+/* #7B9C9A - Reflexos azulados */
+
+/* Fundo Geral Escuro */
+.root {
+    -fx-background-color: #142220;
+    -fx-font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Barra Lateral / Sidebar (Cinza Escuro) */
+.sidebar {
+    -fx-background-color: #2D3543;
+    -fx-padding: 30px 18px;
+    -fx-border-color: #1C2E2C;
+    -fx-border-width: 0 1px 0 0;
+}
+
+.brand-icon {
+    -fx-font-size: 36px;
+}
+
+.sidebar-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7B9C9A;
+}
+
+.sidebar-subtitle {
+    -fx-font-size: 11px;
+    -fx-text-fill: #8B99A3;
+    -fx-padding: 0 0 25px 0;
+}
+
+/* Botões do Menu Lateral */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8B99A3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 12px 16px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.menu-button:hover {
+    -fx-background-color: #1C2E2C;
+    -fx-text-fill: #7B9C9A;
+}
+
+.menu-button-active {
+    -fx-background-color: #7B9C9A;
+    -fx-text-fill: #142220;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 12px 16px;
+    -fx-background-radius: 8px;
+}
+
+/* Cartão Principal (Verde-Petróleo) */
+.card-container {
+    -fx-background-color: #1C2E2C;
+    -fx-background-radius: 16px;
+    -fx-border-color: #2D3543;
+    -fx-border-radius: 16px;
+    -fx-border-width: 1.5px;
+    -fx-padding: 28px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 15, 0, 0, 4);
+}
+
+/* Títulos */
+.label-titulo {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7B9C9A;
+}
+
+.label-subtitulo {
+    -fx-font-size: 13px;
+    -fx-text-fill: #8B99A3;
+}
+
+/* Rótulos de Campos */
+.label-field {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8B99A3;
+}
+
+/* Campos de Texto (Cinza Escuro com Texto Prata) */
+.text-field {
+    -fx-background-color: #2D3543;
+    -fx-border-color: #8B99A3;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 14px;
+    -fx-font-size: 13px;
+    -fx-text-fill: #e2e8f0;
+    -fx-prompt-text-fill: #8B99A3;
+}
+
+.text-field:focused {
+    -fx-border-color: #7B9C9A;
+    -fx-border-width: 2px;
+}
+
+/* Botões de Ação */
+.btn-primary {
+    -fx-background-color: #7B9C9A;
+    -fx-text-fill: #142220;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 22px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #8B99A3;
+}
+
+.btn-secondary {
+    -fx-background-color: #2D3543;
+    -fx-text-fill: #8B99A3;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 22px;
+    -fx-background-radius: 8px;
+    -fx-border-color: #8B99A3;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #1C2E2C;
+    -fx-text-fill: #7B9C9A;
+}
+
+.btn-danger {
+    -fx-background-color: #ef4444;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 22px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #dc2626;
+}
+
+/* Tabela em Dark Mode */
+.table-view {
+    -fx-background-color: #017c63;
+    -fx-border-color: #2D3543;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2D3543;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7B9C9A;
+    -fx-size: 40px;
+}
+
+.table-row-cell {
+    -fx-cell-size: 38px;
+    -fx-background-color: #1C2E2C;
+    -fx-text-fill: #e2e8f0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #000000;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #7B9C9A;
+    -fx-text-fill: #142220;
+}
